@@ -1,0 +1,26 @@
+{
+    "name": "streaming-media-assignment",
+    "version": "1.0.0",
+    "description": "streaming media assignment",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Tests complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mikeplynch/streaming-media-assignment.git"
+    },
+    "author": "Michael Lynch",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/mikeplynch/streaming-media-assignment/issues"
+    },
+    "homepage": "https://github.com/mikeplynch/streaming-media-assignment#readme",
+    "devDependencies": {
+        "eslint": "^3.14.1",
+        "eslint-config-airbnb": "^14.0.0",
+        "eslint-plugin-import": "^2.2.0"
+    }
+}
